@@ -1,0 +1,8 @@
+<table>
+<% @time_sheets.each do |time_sheet| %>
+	<tr>
+		<td><%= time_sheet.user.name %></td>
+		<td><%= time_sheet.start_date %></td>
+	</tr>
+<% end %>
+</table>
