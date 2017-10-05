@@ -1,0 +1,4 @@
+<%= form_for @time_sheet, url: {action: :create} do |f| %>
+	<%= f.date_select :start_date %>
+	<%= f.submit "Create Timesheet" %>
+<% end %>
